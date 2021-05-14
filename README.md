@@ -4,6 +4,20 @@
 - RestAPI서버 중 코로나19 확진자 데이터를 받아서 html에서 parsing(데이터를 분해해서 화면에 뿌려주는 작업)
 - RestAPI서버 주소 (빅데이터) : https://coroname.me/getdata
 
+#### 20210517(월) 작업예정
+- 메인페이지에 자바스크립트(jQuery)적용 메뉴, 슬라이드 이미지처리, top상단이동 (VS code + HTML5 + CSS3 + JQuery)
+- 제이쿼리 적용 부분 : 메뉴, 슬라이드 이미지 3개 처리 : 모바일 메인 페이지만 마무리
+- 테블릿 메인 CSS 스타일 처리, PC용 메인 CSS 스타일 처리
+- 모바일 서브페이지 CSS 스타일 처리
+- 테블릿 + PC용 CSS 스타일 처리
+- 모바일 게시판 페이지(CRUD) CSS 처리
+- 테블릿 + PC용 CSS 스타일 처리
+- 모바일 + 테블릿 + PC 댓글 CSS + jQuery + Bootstrap 처리
+- AdminLTE(부트스트랩 기반 템플릿 - 반응형)를 이용해서 관리자단 디자인 만들기
+- UI 디자인 끝 -----------------------------------
+- UI 구현 시작 ----------------------------------- 스프링 프로젝트 (Java + Eclipse + Oracle + Spring) 시작
+- UI 구현 ... 위 에서 제작한 UI디자인 이용해서 프로그램을 입히게 됩니다.
+
 #### 20210510(월) 작업내역
 - Git에서 'user.email' 'user.name'을 구성하라고 떠요!
 - 업로드 절차 : 1. 커밋(commit) 2. 푸쉬(push) <교실에서 작업한 결과를 올릴 때>
@@ -55,10 +69,10 @@
 - 슬라이드 이미지 : https://pixabay.com/ko/photos/%EC%84%9C%EB%A8%B8%ED%95%84%EB%93%9C-%EC%97%AC%EC%9E%90-%EC%86%8C%EB%85%80-%EC%84%A0%EC%85%8B-336672/
 - NoImage : https://pixabay.com/ko/vectors/%EA%B8%B0%ED%98%B8-%EC%97%86%EC%9D%8C-%EA%B8%88%EC%A7%80-%EB%A1%9C%EA%B7%B8%EC%9D%B8-%EA%B8%B0%ED%98%B8-39767/
 
-#### 20210514(금) 작업예정
+#### 20210514(금) 작업내역
+- CSS3 검사 (http://www.css-validator.org/) HTML5 검사 (https://validator.w3.org/)
 - 사용자단 모바일 메인페이지 footer영역 CSS입히기
-- 과제물 제출 준비
 - jQuery Json 데이터 파싱 실습
+- 과제물 제출 준비
 - 8교시에 과제물 다음카페로 제출
-- 메인페이지에 자바스크립트(jQuery)적용 메뉴, 슬라이드 이미지처리, top상단이동
-- CSS 검사 (http://www.css-validator.org/) HTML 검사 (https://validator.w3.org/)
+- 구문 오류 : syntax 신텍스 오류(문법오류)
