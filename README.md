@@ -20,7 +20,7 @@
 - md : MarkDown Langauage 태그를 사용하지 않는 언어
 
 #### 20210511(화) 작업내역
--로렘 입숨 한글URL : http://guny.kr/stuff/klorem/#/dl-html
+-로렘 입숨 한글 : http://guny.kr/stuff/klorem/#/dl-html
 -로렘 입숨 영어URL : https://loremipsum.io/generator/
 - http://127.0.0.1:80[8000|9000|5500|6500]
 - PC의 네트워크 내부주소(공통) : 127.0.0.1 => 로컬호스트(localhost)
@@ -61,3 +61,4 @@
 - jQuery Json 데이터 파싱 실습
 - 8교시에 과제물 다음카페로 제출
 - 메인페이지에 자바스크립트(jQuery)적용 메뉴, 슬라이드 이미지처리, top상단이동
+- CSS 검사 (http://www.css-validator.org/) HTML 검사 (https://validator.w3.org/)
