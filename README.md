@@ -52,7 +52,12 @@
 - home폴더 기존 작업물, 리뉴얼 home에 덮어쓰는 방식이 아니고, home2022 폴더에 작업을 하시게 됩니다.
 - 픽사베이 이미지 3개 : 로고 1개, 슬라이드 이미지 1개, NoImage 1개, 받고 경로 적어놓기
 - 로고 : https://pixabay.com/ko/illustrations/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EC%82%AC%ED%9A%8C-%EC%B6%94%EC%83%81-5199241/
-- 슬라이드 이미지 : https://pixabay.com/ko/photos/%EC%84%9C%EB%A8%B8%ED%95%84%EB%93%9C-%EC%97%AC%EC%9E%90-%EC%86%8C%EB%85%80-%EC%84%A0%EC%85%8B-336672/
+
+- 슬라이드 이미지
+슬라이드 1 : https://pixabay.com/ko/photos/%EC%84%9C%EB%A8%B8%ED%95%84%EB%93%9C-%EC%97%AC%EC%9E%90-%EC%86%8C%EB%85%80-%EC%84%A0%EC%85%8B-336672/
+슬라이드 2 : https://pixabay.com/ko/photos/%EC%95%84%EC%9D%B4%EC%8A%A4-%ED%81%AC%EB%A6%BC-%EB%94%94%EC%A0%80%ED%8A%B8-%EC%9D%8C%EC%8B%9D-1274894/
+슬라이드 3 : https://pixabay.com/ko/photos/%EC%8B%9C%EA%B3%A8-%EC%88%98%ED%99%95-%EB%86%8D%EC%97%85-%ED%8C%9C-%EC%9E%90%EC%97%B0-2326787/
+
 - NoImage : https://pixabay.com/ko/vectors/%EA%B8%B0%ED%98%B8-%EC%97%86%EC%9D%8C-%EA%B8%88%EC%A7%80-%EB%A1%9C%EA%B7%B8%EC%9D%B8-%EA%B8%B0%ED%98%B8-39767/
 
 #### 20210514(금) 작업내역
@@ -63,9 +68,11 @@
 - 8교시에 과제물 다음카페로 제출
 - 구문 오류 : syntax 신텍스 오류(문법오류)
 
-#### 20210517(월) 작업예정
+#### 20210517(월) 작업
 - 메인페이지에 자바스크립트(jQuery)적용 메뉴, 슬라이드 이미지처리, top상단이동 (VS code + HTML5 + CSS3 + JQuery)
 - 제이쿼리 적용 부분 : 메뉴, 슬라이드 이미지 3개 처리 : 모바일 메인 페이지만 마무리
+- 보통 이미지 슬라이드 처리는 외부 라이브러리(Lib) 사용 (니보 슬라이드, 캐로셀 슬라이드)
+- 외부 Lib 사용하지 않고, 직접 만들기
 - 테블릿 메인 CSS 스타일 처리, PC용 메인 CSS 스타일 처리
 - 모바일 서브페이지 CSS 스타일 처리
 - 테블릿 + PC용 CSS 스타일 처리
@@ -77,3 +84,5 @@
 - UI 구현 시작 ----------------------------------- 스프링 프로젝트 (Java + Eclipse + Oracle + Spring) 시작
 - UI 구현 ... 위 에서 제작한 UI디자인 이용해서 프로그램을 입히게 됩니다.
 - 수업시작전, jsonData 파싱부분에서 append 사용에 2번 반복되는 부분 확인예정.
+
+#### 작업예정
