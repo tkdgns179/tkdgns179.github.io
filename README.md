@@ -1,4 +1,5 @@
 #### 작업예정 : jQuery 제이쿼리 JSON data parsing
+- 수업시작전, PC용 메뉴 2차 메뉴 마우스 오버시 사라지는 메뉴
 - 외부data.js 파일에서 json data를 저장한 이후에 html에서 불러와서 parsing
 - 외부 사이트에서 제공하는(RestAPI) json data를 html에서 불러온 후 parsing
 - RestAPI서버 중 코로나19 확진자 데이터를 받아서 html에서 parsing(데이터를 분해해서 화면에 뿌려주는 작업)
