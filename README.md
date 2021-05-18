@@ -75,11 +75,14 @@
 - 외부 Lib 사용하지 않고, 직접 만들기
 - 수업시작전, jsonData 파싱부분에서 append 사용에 2번 반복되는 부분 확인예정.
 
-#### 작업예정
+#### 20210518(화) 작업내역
 - 테블릿 메인 CSS 스타일 처리, PC용 메인 CSS 스타일 처리
 - 테블릿, 모바일은 마우스 오버 기능을 넣을 필요가 없습니다. (터치 스크린 방식이기 때문에)
 - 배치1 : jQuery core import 이후에 사용자가 지정한 js 배치를 해야함.
 - 배치2 : reset.css, mobile.css import 이후에 사용자가 지정한 tablet.css, pc.css 배치해야 레이아웃이 깨지지 않음
+- 메인페이지 시간이 걸리는 부분 (front-end) : 메뉴처리, 슬라이딩 처리
+- 메인페이지 시간이 걸리는 부분 (back-end)  : 최근 갤러리, 최근 공지사항 DB데이터 출력
+- ↑ 보통 1주일 정도 걸림 
 - 모바일 서브페이지 CSS 스타일 처리
 - 테블릿 + PC용 CSS 스타일 처리
 - 모바일 게시판 페이지(CRUD) CSS 처리
@@ -92,3 +95,9 @@
 - 반응형 페이지의 핵심기술은 미디어쿼리 명령어 사용, 가로 크기를 100%(100px 고정 크기가 아닌 비율로 내부 컨텐츠 크기를 지정하는 방법)
 - 미디어(PC, 스마트폰, 프린터, 태블릿화면...) + 쿼리Query(질의어 - 질문)
 - 사용법 : @media 미디어타입(screen, print, ..etc = all) and (min-width : 801px) { 스타일 구현내용 }
+
+#### 작업예정
+- 1개월 간, 주로 UI 계속진행(VS Code) 하면서 // front-end
+- 피곤할 때, 자바|스프링 기본 (eclipse) - egov 전자정부 프레임워크 개발환경 기본실습 진행 // program-language
+- 피곤할 때, 오라클DB(SQL developer 개발 환경) - Ansi-SQL(Standard SQL) 기본 언어 실습 진행 CRUD // program-language
+- 2개월 후, 주로 스프링으로 실습이 진행(납품용 - for portfolio) // back-end
