@@ -16,13 +16,32 @@
     -->
     <link rel="stylesheet" href="/home/css/reset.css">
     <!-- 여기서 부터는 사용자 정의형 스타일 + 스크립트 추가(아래) -->
+    <!-- mobile core import -->
     <link rel="stylesheet" href="/home/css/mobile.css">
+    <!-- tablet core import -->
+    <link rel="stylesheet" href="/home/css/tablet.css">
     <script src="/home/js/main.js"></script>
     <!-- mainslide.js core import  -->
     <script src="/home/js/slidemain.js"></script>
     <style>
     /* 테블릿용 메인페이지 스타일 지정 */
-    
+    @media all and (min-width : 801px) {
+        /* 컨테이너 영역 START */
+        #container {
+            padding-bottom: 20px;
+            width: auto;
+            position: inherit; /* 부모 영역의 위치를 상속받습니다 */
+        }
+        /* 컨테이너 영역 END */
+
+        /* 슬라이드 영역 START */
+            
+        /* 슬라이드 영역 END */
+        
+        /* 최신 갤러리 START */
+
+        /* 최신 갤러리 END */
+    }
     </style>
         
     <script>
@@ -134,14 +153,14 @@
                         <li class="imglist1">
                             <div class="roll_content">
                                 <a href="javascript:;">
-                                    <p class="roll_txtline">0OOO OOOOOOOOO OOOOOOOOO OOOOO</p>
+                                    <p class="roll_txtline">2OOO OOOOOOOOO OOOOOOOOO OOOOO</p>
                                 </a>
                             </div>
                         </li>
                         <li class="imglist2">
                             <div class="roll_content">
                                 <a href="javascript:;">
-                                    <p class="roll_txtline">0OOO OOOOOOOOO OOOOOOOOO OOOOO</p>
+                                    <p class="roll_txtline">3OOO OOOOOOOOO OOOOOOOOO OOOOO</p>
                                 </a>
                             </div>
                         </li>
