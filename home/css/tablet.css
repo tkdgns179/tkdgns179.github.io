@@ -2,7 +2,7 @@
 @media all and (min-width : 801px) {
     /* 상단 로고와 메뉴 스타일 START */
     header {
-        height: 133px;
+        height: 113px;
     }
     .header_area h1 {
         float: left; /* 로고 이미지를 가운데 -> 왼쪽으로 정렬 */
