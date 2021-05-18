@@ -242,6 +242,7 @@ border-right: 1px solid #83868b;
 .place_list li .view {
     padding-bottom: 10px;
     margin: 0px 0px 30px;
+    display: inline-block;
     padding-top: 5px;
     border-top: 2px solid #333;
     color: #333;
@@ -278,7 +279,7 @@ border-right: 1px solid #83868b;
     position: relative;
     width: 100%;
 }
-.viewImgList {
+.gList {
     position: relative;
     width: 100%;
 }

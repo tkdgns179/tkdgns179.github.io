@@ -26,21 +26,63 @@
     <style>
     /* 테블릿용 메인페이지 스타일 지정 */
     @media all and (min-width : 801px) {
-        /* 컨테이너 영역 START */
-        #container {
-            padding-bottom: 20px;
-            width: auto;
-            position: inherit; /* 부모 영역의 위치를 상속받습니다 */
+        /* 전화상담과 최근공지사항 START */
+        .appbbs_area {
+            padding: 60px 0px;
         }
-        /* 컨테이너 영역 END */
-
-        /* 슬라이드 영역 START */
-            
-        /* 슬라이드 영역 END */
-        
-        /* 최신 갤러리 START */
-
-        /* 최신 갤러리 END */
+        .appbbs_box {
+            box-sizing: border-box;
+            padding:0px 20px;
+        }
+        .app_line {
+            display: inherit;
+            float: left;
+            width: 65%; /* 35%(나머지)가 최근 공지사항 영역 */
+            box-sizing: border-box;
+            padding: 46px 0px;
+            background: url(./img/bg_app.jpg); /* 단일 색상이기 때문에 no-repeat 필요 없음 */
+            font-size: 0px; /* 웹 접근성(시각 장애인을 위해서 존재) */
+            text-align: center;
+        }
+        .app_line a {
+            font-size: 21px;
+            display: inline-block;
+            width: 42.4%; /* app_line에서 a tag가 65%영역에서 42.4%차지 */
+            height: 100px;
+            line-height: 100px;
+            box-sizing: border-box;
+            padding-left: 55px;
+            text-align: left;
+            background: rgba(0,0,0,0.3) url(./img/ico_katalk.png) no-repeat 10px 50%; /* 10px 가로위치, 50% 세로가운데위치 */
+            border: 2px solid #fff;
+            color: #fff;
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+        .app_line a + a { /* sbibling tag 영역 */
+            background-image: url(./img/ico_phone.png);
+            margin-right: 0px;
+            padding-left: 65px;
+        }
+        .bbs_line { /* 최신 공지사항 영역 */
+            float: right;
+            width: 29%; /* 나머지 35% 중에서 29%만 사용 / 나머지 6%는 여백으로 사용*/
+            border-top: none;
+            padding: inherit;
+        }
+        .bbs_line h3 {
+            font-size: 26px;
+            font-weight: inherit;
+        }
+        .bbs_line .notice_recent li a {
+            display: block;
+            padding-left: 14px;
+            background: url() no-repeat 0 50%;
+            overflow: hidden;
+            text-overflow: ellipsis; /* 문자열이 영역을 벗어났을 때 ...으로 표시하는 명령 */
+            white-space: nowrap; /* 줄바꿈시 단어를 기준으로 하지 않겠다. */
+        }
+        /* 전화상담과 최근공지사항 END */
     }
     </style>
         

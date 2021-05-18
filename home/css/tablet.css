@@ -81,4 +81,48 @@
     }
     
     /* 상단 로고와 메뉴 스타일 END */
+    /* 컨테이너 영역 START */
+    #container {
+        padding-bottom: 20px;
+        width: auto;
+        position: inherit; /* 부모 영역의 위치를 상속받습니다 */
+    }
+    /* 컨테이너 영역 END */
+    /* 슬라이드 영역 START */
+    ul.viewImgList li {
+        height: 550px;
+    }
+    /* 슬라이드 영역 END */
+    /* 최신 갤러리 START */
+    .about_area h2 {
+        padding: 55px 0 105px;
+        font-size: 40px;
+    }
+    .about_area h2 b {
+        display: inherit;
+        padding-top: inherit;
+    }
+    .place_list {
+        box-sizing: border-box;
+        padding: 0 20px;
+    }
+    .place_list li:first-child {
+        margin-left: 0;
+    }
+    .place_list li {
+        float: left;
+        width: 32%;
+        margin-left: 2%;
+        position: relative;
+        top: -50px;
+        padding: 0;
+    }
+    .place_list li p.txt {
+        padding: 10px 30px 0;
+        line-height: 1.8;
+    }
+    .place_list li .view {
+        margin-top: 20px;
+    }
+    /* 최신 갤러리 END */
 }
