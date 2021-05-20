@@ -7,6 +7,18 @@
 - 피곤할 때, 자바|스프링 기본 (eclipse) - egov 전자정부 프레임워크 개발환경 기본실습 진행 // program-language
 - 피곤할 때, 오라클DB(SQL developer 개발 환경) - Ansi-SQL(Standard SQL) 기본 언어 실습 진행 CRUD // program-language
 - 2개월 후, 주로 스프링으로 실습이 진행(납품용 - for portfolio) // back-end
+- egov : 자바기반 -> JDK(Java Developement Kit 자바개발환경) 설치확인
+- JDK 실행 경로 추가
+- java -version (git --version)
+- 자바 오라클자바는 8버전부터 돈을 내야 합니다. 이러한 이슈 때문에 오픈JDK로 회사에서 변경해서 사용합니다.
+- 그래서, 오라클자바 8~11버전 지우고, openjdk로 변경 후 eclipse를 사용할 예정.
+- openjdk 1.8 version (egov와 100% 호환 됨) 사용함
+- tomcat : eclipse에서 웹 프로그램 결과를 확인하는 라이브 서버입니다. (localhost:8080)
+- live server (aphache) : vs code에서 html결과를 확인하는 라이브 서버. (localhost:5500)
+- JRE : Java Runtime Environment(자바실행환경) - 실행할 때만 사용
+- JDK : 개발하고, 실행할 때 
+- 점심후 웹프로젝트 1개 (Hello world) - 생성실행 후 삭제, Spring proeject(Hello java) - test 폴더에서 자바 기초를 공부 (2달후 까지 가져감)
+- 자바에 익숙해진 후 위 스프링프로젝트를 이용해서 vs code에서 만든 UI를 JSP로 변경 한 후 스프링 웹프로젝트 진행합니다. 
 
 #### 20210510(월) 작업내역
 - Git에서 'user.email' 'user.name'을 구성하라고 떠요!
@@ -94,7 +106,10 @@
 - ↑ 보통 1주일 정도 걸림 
 - 모바일 서브페이지 CSS 스타일 처리
 - 테블릿 + PC용 CSS 스타일 처리
-- 모바일 게시판 페이지(CRUD) CSS 처리
+- 모바일 게시판 페이지(CRUD) CSS 처리 -Read(List, View 페이지)-
+- Read - 리스트형식 (다중 Map) : board_list.html, 예, 회원리스트(회원목록)
+- Read - 단일 Map 형식,  json형식 (key1 : value1, key2 : value2, ... keyN : valueN) board_view.html (회원상세보기) 
+- 상세보기 페이지 댓글 디자인은 부트스트랩 디자인시(관리자단 작업시) 추가 할 예정
 - camel notation (낙타등 표기법 e.g. .bbsListTbl), underscore notation (e.g. .bbs_title)
 - href(헤르프) : hypertext reference (웹 문서 참조)
 - 정적(static) 콘텐츠 : html, css, js
@@ -110,3 +125,7 @@
 - UI 구현 시작 ----------------------------------- 스프링 프로젝트 (Java + Eclipse + Oracle + Spring) 시작
 - UI 구현 ... 위 에서 제작한 UI디자인 이용해서 프로그램을 입히게 됩니다.
 
+#### 20210521(금) 작업예정
+- 반응형 게시판 페이지(CRUD) CSS 처리 : Create(Update) = board_write.html
+- 반응형 서브페이지를(로그인, 회원가입, 마이페이지)
+- eclipse Hello world 만들기.
