@@ -95,6 +95,14 @@
 - 모바일 서브페이지 CSS 스타일 처리
 - 테블릿 + PC용 CSS 스타일 처리
 - 모바일 게시판 페이지(CRUD) CSS 처리
+- camel notation (낙타등 표기법 e.g. .bbsListTbl), underscore notation (e.g. .bbs_title)
+- href(헤르프) : hypertext reference (웹 문서 참조)
+- 정적(static) 콘텐츠 : html, css, js
+- 동적(dynamic) 콘텐츠 : jsp(java spring), py(python Django), PHP, C#(.net), Nodejs(express)
+- (데이터 변수) 바인딩 : 동적인 데이터를 정적인 데이터를 넣어주는 것을 바인딩 이라고 함 (묶어주는 역할)
+- 오후에 자바(spring) 개발환경 설치예정 (eclipse : 전자정부표준프레임워크 개발환경 설치)
+- 전자정부표준프레임워크를 제작한 업체 : 삼성SDS, LG CNS, SK C&C 협업으로 제작
+- 게시물 타이블 넘치는 부분 CSS 처리했음, 스프링가선는 jsp에서 프로그램을 처리할 예정
 - 테블릿 + PC용 CSS 스타일 처리
 - 모바일 + 테블릿 + PC 댓글 CSS + jQuery + Bootstrap 처리
 - AdminLTE(부트스트랩 기반 템플릿 - 반응형)를 이용해서 관리자단 디자인 만들기
