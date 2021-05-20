@@ -1,9 +1,12 @@
 #### 작업예정 : jQuery 제이쿼리 JSON data parsing
-- 수업시작전, PC용 메뉴 2차 메뉴 마우스 오버시 사라지는 메뉴
 - 외부data.js 파일에서 json data를 저장한 이후에 html에서 불러와서 parsing
 - 외부 사이트에서 제공하는(RestAPI) json data를 html에서 불러온 후 parsing
 - RestAPI서버 중 코로나19 확진자 데이터를 받아서 html에서 parsing(데이터를 분해해서 화면에 뿌려주는 작업)
 - RestAPI서버 주소 (빅데이터) : https://coroname.me/getdata
+- 1개월 간, 주로 UI 계속진행(VS Code) 하면서 // front-end
+- 피곤할 때, 자바|스프링 기본 (eclipse) - egov 전자정부 프레임워크 개발환경 기본실습 진행 // program-language
+- 피곤할 때, 오라클DB(SQL developer 개발 환경) - Ansi-SQL(Standard SQL) 기본 언어 실습 진행 CRUD // program-language
+- 2개월 후, 주로 스프링으로 실습이 진행(납품용 - for portfolio) // back-end
 
 #### 20210510(월) 작업내역
 - Git에서 'user.email' 'user.name'을 구성하라고 떠요!
@@ -77,6 +80,11 @@
 - 수업시작전, jsonData 파싱부분에서 append 사용에 2번 반복되는 부분 확인예정.
 
 #### 20210518(화) 작업내역
+- 반응형 페이지의 핵심기술은 미디어쿼리 명령어 사용, 가로 크기를 100%(100px 고정 크기가 아닌 비율로 내부 컨텐츠 크기를 지정하는 방법)
+- 미디어(PC, 스마트폰, 프린터, 태블릿화면...) + 쿼리Query(질의어 - 질문)
+- 사용법 : @media 미디어타입(screen, print, ..etc = all) and (min-width : 801px) { 스타일 구현내용 }
+
+#### 20210520(목) 작업내역
 - 테블릿 메인 CSS 스타일 처리, PC용 메인 CSS 스타일 처리
 - 테블릿, 모바일은 마우스 오버 기능을 넣을 필요가 없습니다. (터치 스크린 방식이기 때문에)
 - 배치1 : jQuery core import 이후에 사용자가 지정한 js 배치를 해야함.
@@ -93,12 +101,4 @@
 - UI 디자인 끝 -----------------------------------
 - UI 구현 시작 ----------------------------------- 스프링 프로젝트 (Java + Eclipse + Oracle + Spring) 시작
 - UI 구현 ... 위 에서 제작한 UI디자인 이용해서 프로그램을 입히게 됩니다.
-- 반응형 페이지의 핵심기술은 미디어쿼리 명령어 사용, 가로 크기를 100%(100px 고정 크기가 아닌 비율로 내부 컨텐츠 크기를 지정하는 방법)
-- 미디어(PC, 스마트폰, 프린터, 태블릿화면...) + 쿼리Query(질의어 - 질문)
-- 사용법 : @media 미디어타입(screen, print, ..etc = all) and (min-width : 801px) { 스타일 구현내용 }
 
-#### 작업예정
-- 1개월 간, 주로 UI 계속진행(VS Code) 하면서 // front-end
-- 피곤할 때, 자바|스프링 기본 (eclipse) - egov 전자정부 프레임워크 개발환경 기본실습 진행 // program-language
-- 피곤할 때, 오라클DB(SQL developer 개발 환경) - Ansi-SQL(Standard SQL) 기본 언어 실습 진행 CRUD // program-language
-- 2개월 후, 주로 스프링으로 실습이 진행(납품용 - for portfolio) // back-end
