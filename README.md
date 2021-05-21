@@ -116,7 +116,7 @@
 - 동적(dynamic) 콘텐츠 : jsp(java spring), py(python Django), PHP, C#(.net), Nodejs(express)
 - (데이터 변수) 바인딩 : 동적인 데이터를 정적인 데이터를 넣어주는 것을 바인딩 이라고 함 (묶어주는 역할)
 - 오후에 자바(spring) 개발환경 설치예정 (eclipse : 전자정부표준프레임워크 개발환경 설치)
-- 전자정부표준프레임워크를 제작한 업체 : 삼성SDS, LG CNS, SK C&C 협업으로 제작
+- 전자정부 표준프레임워크를 제작한 업체 : 삼성SDS, LG CNS, SK C&C 협업으로 제작
 - 게시물 타이블 넘치는 부분 CSS 처리했음, 스프링가선는 jsp에서 프로그램을 처리할 예정
 - 테블릿 + PC용 CSS 스타일 처리
 - 모바일 + 테블릿 + PC 댓글 CSS + jQuery + Bootstrap 처리
@@ -125,7 +125,11 @@
 - UI 구현 시작 ----------------------------------- 스프링 프로젝트 (Java + Eclipse + Oracle + Spring) 시작
 - UI 구현 ... 위 에서 제작한 UI디자인 이용해서 프로그램을 입히게 됩니다.
 
-#### 20210521(금) 작업예정
+#### 20210521(금) 작업내역
 - 반응형 게시판 페이지(CRUD) CSS 처리 : Create(Update) = board_write.html
+- 글쓰기 폼에서 첨부파일 부분(bootstrap 적용), 내용입력 부분 웹 에디터 추가
+- bootstrap(AdminLTE) : jQuery 기반의 UI template(framework)
+- AdminLTE : dist(distribute = 배포), pages(더미데이터), plugins(서머노트 등..)
+- dashboard file : index.html, index2.html, index3.html
 - 반응형 서브페이지를(로그인, 회원가입, 마이페이지)
 - eclipse Hello world 만들기.
