@@ -3,7 +3,7 @@
 /* ============================================================================================================= */
 /* 공통 영역 START */
 body { /* body tag만 a tag는 적용 안 됨 */
-    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Nanum Gothic', sans-serif !important;
     font-size: 16px !important; /* important 중요함 => 사용시 body 폰트크기는 무조건 16px로 고정 */
     letter-spacing: -1px !important;
     color: #444 !important;
