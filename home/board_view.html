@@ -342,7 +342,7 @@
           <!-- /.modal -->
         </div>
         <script>
-        // 페이징처리 함수형 변수(↓)
+        // 페이징처리 함수형 변수(↓) <오리지널 방식>
         var printPagingList = function(pageVO, target){
             $(target).html('');
         // pageVO = 스프링에서 받는 json데이터, 변수 3개 pageVO.prev(이전 데이터가 있다면 true), pageVO.next(다음 데이터가 있다면 true), pageVO = 5페이지 있다고 가정
@@ -370,7 +370,7 @@
         };
         
 
-        // 댓글리스트처리 함수형 변수(↓)
+        // 댓글리스트처리 함수형 변수(↓) <빵틀 template 방식>
         var printReplyList = function(data, templateData, target) {
             var template = Handlebars.compile(templateData.html()); // 템플릿을 태그로 변환
             var html = template(data); // 파싱처리
