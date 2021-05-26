@@ -317,6 +317,10 @@ input::placeholder { color: #999; } /* IE(Internet Explore)브라우저용 스�
     border: 1px solid #ccc;
     margin-left: 1px;
 }
+.radio_area {
+    padding: 10px;
+    box-sizing: border-box;
+}
 .app_content input {
     border: none;
     /* width: inherit; 부모 영역의 input tag의 너비값을 상속 받음 */
