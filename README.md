@@ -1,12 +1,16 @@
-#### 작업예정 : jQuery 제이쿼리 JSON data parsing
-- 외부data.js 파일에서 json data를 저장한 이후에 html에서 불러와서 parsing
-- 외부 사이트에서 제공하는(RestAPI) json data를 html에서 불러온 후 parsing
-- RestAPI서버 중 코로나19 확진자 데이터를 받아서 html에서 parsing(데이터를 분해해서 화면에 뿌려주는 작업)
-- RestAPI서버 주소 (빅데이터) : https://coroname.me/getdata
+#### 작업예정
 - 1개월 간, 주로 UI 계속진행(VS Code) 하면서 // front-end
 - 피곤할 때, 자바|스프링 기본 (eclipse) - egov 전자정부 프레임워크 개발환경 기본실습 진행 // program-language
 - 피곤할 때, 오라클DB(SQL developer 개발 환경) - Ansi-SQL(Standard SQL) 기본 언어 실습 진행 CRUD // program-language
 - 2개월 후, 주로 스프링으로 실습이 진행(납품용 - for portfolio) // back-end
+- VS code에서 만든 UI를 이클립스에서 JSP로 변경 한 후 스프링 웹 프로젝트를 진행합니다
+- 관리자단 AdminLTE적용-(스프링시간) : 회원관리CRUD, 게시판생성관리CRUD by JSP
+
+#### Description
+- 외부 사이트에서 제공하는(RestAPI) json data를 html에서 불러온 후 parsing
+- 외부data.js 파일에서 json data를 저장한 이후에 html에서 불러와서 parsing
+- RestAPI서버 중 코로나19 확진자 데이터를 받아서 html에서 parsing(데이터를 분해해서 화면에 뿌려주는 작업)
+- RestAPI서버 주소 (빅데이터) : https://coroname.me/getdata
 - egov : 자바기반 -> JDK(Java Developement Kit 자바개발환경) 설치확인
 - JDK 실행 경로 추가
 - java -version (git --version)
@@ -172,7 +176,16 @@
 - 과장/이사급이 UI를 2개파일 만큼 또는 테마포레스트 같은 디자인 UI html + css + js를 구매 -> 기반으로 퍼블리셔, 프론트개발자 CSS HTML작업 이어서 합니다.
 - 발주 금액이 4,000~ 20,000 안 팎의 프로젝트 자체 UI를 사용
 
-#### 20210527(목) 작업예정
-- 관리자단 AdminLTE적용.(회원관리CRUD, 게시판CRUD, 대시보드)
+#### 20210527(목) 작업
+- admin/board_list.html 부터 시작.
+- 관리자단 AdminLTE적용-(UI시간) : 게시판CRUD, 대시보드 by HTML
+- 관리자단 기본 틀(template) : 공통 UI부분 작업
+- ⁕ VS Code 단축키 Tip
+- Ctrl + K -> Ctrl + 0 : 코드 접기
+- Ctrl + K -> Ctrl + J : 코드 펼침
 
-
+#### 20210528(금) 작업예정
+- 관리자단 admin/board_write.html board_view.html (댓글 ajax로 처리)
+- 대시보드 home.html (최근 회원가입정보, 최근 게시물정보)
+- 이클립스로 작업한 html 내용을 → resources 폴더(admin, home, root 파일까지)로 배치
+- 스프링 작업의 시작
