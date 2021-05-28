@@ -185,7 +185,8 @@
 - Ctrl + K -> Ctrl + J : 코드 펼침
 
 #### 20210528(금) 작업
-- source inspection|review 코드를 검사
+- UI트렌드용어 : 카드(트럼프)UI, 뱃지(명함), 리본(이벤트표시)
+- source inspection | code review 코드|소스 분석
 - QueryString : ?key=value&key=value 데이터 전송할 때 사용
 - 뒤로가기를 허용하면, 게시물 테러가 가능합니다
 - 뒤로가기를 허용하지 않게 페이지를 이동하는 방식(JS에서는 location.replace함수 사용)
