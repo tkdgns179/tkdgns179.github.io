@@ -184,7 +184,12 @@
 - Ctrl + K -> Ctrl + 0 : 코드 접기
 - Ctrl + K -> Ctrl + J : 코드 펼침
 
-#### 20210528(금) 작업예정
+#### 20210528(금) 작업
+- source inspection|review 코드를 검사
+- QueryString : ?key=value&key=value 데이터 전송할 때 사용
+- 뒤로가기를 허용하면, 게시물 테러가 가능합니다
+- 뒤로가기를 허용하지 않게 페이지를 이동하는 방식(JS에서는 location.replace함수 사용)
+- 뒤로가기를 허용하는 함수(JS에서는 location.href=''사용)
 - 관리자단 admin/board_write.html board_view.html (댓글 ajax로 처리)
 - 대시보드 home.html (최근 회원가입정보, 최근 게시물정보)
 - 관리자단 AdminLTE적용 - 스프링시간 | UI디자인시간.  
