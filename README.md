@@ -194,9 +194,12 @@
 - 관리자단 admin/board_write.html board_view.html (댓글 ajax로 처리)
 - 대시보드 home.html (최근 회원가입정보, 최근 게시물정보)
 
-#### 20210530(월) 작업예정
-- ERD기준으로 게시판UI 수정
+#### 20210531(월) 작업예정
+- ERD기준으로 게시판UI 수정합니다.
 - 관리자단 AdminLTE적용 - 스프링시간 | UI디자인시간.  
 ↳ 회원관리 CRUD 바로 jsp, 게시판 생성/관리 CRUD 바로 jsp
 - 이클립스로 작업한 html 내용을 → resources 폴더(admin, home, root 파일까지)로 배치
 - 스프링 작업의 시작
+
+#### 20210601(화) 작업예정
+- ERD기준으로 게시판UI 수정마무리 합니다.
